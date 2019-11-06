@@ -1,8 +1,8 @@
 div#titre h3 {
     padding:5px;
     font-size: 30px;
-    background-image: radial-gradient(rgb(0, 139, 163),black);
-    color: black;
+    background-image: radial-gradient(rgb(0, 153, 153),rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
     margin: 0 auto;
@@ -15,8 +15,8 @@ div#titre h3 {
 div#titre h4 {
     padding:5px;
     font-size: 40px;
-    background-image:radial-gradient(rgb(2, 148, 173),black);
-    color: black;
+    background-image:radial-gradient(rgb(0, 168, 168),rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
     border:1px solid #000000;
     -moz-border-radius:9px;
     -khtml-border-radius:9px;
@@ -29,9 +29,13 @@ div#titre h4 {
 
 div#text {
     font-size : 20px;
-    color: rgba(255, 255, 255, 0.616);
+    color: rgb(255, 255, 255);
     padding: 2%;
-    
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto; 
+    text-align:left; 
+    width : 800px;
 }
 
 #menu {
@@ -52,7 +56,7 @@ div#text {
     width: 90em;
     max-width: calc(100% - 4em);
     margin: 0 auto;
-    background-image: linear-gradient(black,rgb(122, 122, 122),black);
+    background-image: linear-gradient(rgb(0, 184, 153),rgb(0, 0, 0),rgb(2, 184, 153),rgb(0, 0, 0));
     border-radius: 8px;
     margin-top: -3%;
     border:1px solid #000000;
