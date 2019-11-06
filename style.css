@@ -1,17 +1,21 @@
 div#titre h3 {
     padding:5px;
     font-size: 30px;
-    background-color:#ffffff;
+    background-image: radial-gradient(rgb(0, 139, 163),black);
     color: black;
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    border:1px solid #000000;
+    -moz-border-radius:9px;
+    -khtml-border-radius:9px;
+    -webkit-border-radius:9px;
 }
 
 div#titre h4 {
     padding:5px;
     font-size: 40px;
-    background-image:radial-gradient(white, rgb(0, 156, 135)) ;
+    background-image:radial-gradient(rgb(2, 148, 173),black);
     color: black;
     border:1px solid #ffffff;
     -moz-border-radius:9px;
@@ -24,7 +28,7 @@ div#titre h4 {
 }
 
 div#text {
-    font-size : 15px;
+    font-size : 20px;
     color: rgba(255, 255, 255, 0.616);
     padding: 2%;
     
@@ -36,7 +40,7 @@ div#text {
     top: 20%;
     margin: 0 auto;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgb(0, 130, 153),rgb(0, 0, 0));
+    background-image: linear-gradient(rgb(95, 94, 94),rgb(0, 0, 0));
     border:1px solid #ffffff;
     -moz-border-radius:9px;
     -khtml-border-radius:9px;
@@ -45,8 +49,8 @@ div#text {
   }
   
   #wrapper {
-    width: 64em;
-    max-width: calc(70% - 4em);
+    width: 90em;
+    max-width: calc(100% - 4em);
     margin: 0 auto;
     background-image: linear-gradient(black,rgb(122, 122, 122),black);
     border-radius: 8px;
