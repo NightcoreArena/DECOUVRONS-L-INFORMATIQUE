@@ -17,7 +17,7 @@ div#titre h4 {
     font-size: 40px;
     background-image:radial-gradient(rgb(2, 148, 173),black);
     color: black;
-    border:1px solid #ffffff;
+    border:1px solid #000000;
     -moz-border-radius:9px;
     -khtml-border-radius:9px;
     -webkit-border-radius:9px;
@@ -55,7 +55,7 @@ div#text {
     background-image: linear-gradient(black,rgb(122, 122, 122),black);
     border-radius: 8px;
     margin-top: -3%;
-    border:1px solid #ffffff;
+    border:1px solid #000000;
     -moz-border-radius:9px;
     -khtml-border-radius:9px;
     -webkit-border-radius:9px;
