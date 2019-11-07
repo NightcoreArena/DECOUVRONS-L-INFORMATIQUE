@@ -69,7 +69,8 @@ body {
   line-height: 1.5;
   color: #888;
   text-align: left;
-  background-image: linear-gradient(rgb(255, 224, 124), rgb(90, 90, 90), rgb(255, 224, 124))
+  background-attachment: fixed;
+  background-image: url('https://panzergeneral.org/wp-content/uploads/2018/10/image-fond-ecran-1920x1080-the-elder-scrolls-v-skyrim-fond-d-cran-hd-arri-re-plan-227591-image-fond-ecran-1920x1080-2-fonds-d-cran-id-227591.jpg');
 }
 
 [tabindex="-1"]:focus {
