@@ -14,7 +14,7 @@ div#titre h3 {
 
 div#titre h4 {
     padding:5px;
-    font-size: 40px;
+    font-size: 35px;
     background-image:radial-gradient(rgb(0, 168, 168),rgb(0, 0, 0));
     color: rgb(255, 255, 255);
     border:1px solid #000000;
@@ -43,7 +43,7 @@ div#text {
     display: inline-flex;
     top: 2%;
     margin: 0 auto;
-    color: rgb(255, 255, 255);
+    color: rgb(117, 117, 117);
     background-image: linear-gradient(rgb(151, 151, 151),rgb(0, 0, 0));
     -moz-border-radius:9px;
     -khtml-border-radius:9px;
