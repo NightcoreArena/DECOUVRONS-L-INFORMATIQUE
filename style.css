@@ -38,24 +38,7 @@ div#text {
     width : 800px;
 }
 
-#menu {
-    position: fixed; 
-    display: inline-flex;
-    top: 2%;
-    margin: 0 auto;
-    color: rgb(117, 117, 117);
-    background-image: linear-gradient(rgb(151, 151, 151),rgb(0, 0, 0));
-    -moz-border-radius:9px;
-    -khtml-border-radius:9px;
-    -webkit-border-radius:9px;
-    text-align:center;
-    font: size 25;pt;
-    width: 50%;
-    top:0;
-    left:26%;
-    padding:10px 3px 10px 4px;
-    text-decoration: none;
-  }
+  
   
   #wrapper {
     width: 90em;
@@ -70,7 +53,79 @@ div#text {
     -webkit-border-radius:9px;
   }
 
+body{
+background-color : #b5b5b5;
+padding : 0;
+margin : 0;
+}
 
+#menufond{
+position: fixed;
+width: 100%;
+background: linear-gradient(#000000, #ff0000);
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),
+			0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,
+			0px -3px 0px 1px rgba(0, 0, 0, 0.1) inset;
+height : 50px;
+}
+
+#menu{
+    height: 50%;
+    position: fixed;
+	font-family: "Trebuchet MS";
+    display: table;
+	margin-right : auto;
+	margin-left : 20%;
+	margin-top : 0;
+	padding : 0;
+}
+
+#menu li{
+    display: table-cell;
+	width: 195px;
+	transition:1s;
+}
+
+#menu li:hover{
+	width:190px;
+	transition:1s;
+}
+
+#menu a{
+	display: block;
+	line-height: 46px;
+    text-align: center;
+	text-decoration : none;
+	color : white;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	transition : text-shadow,color 1s;
+	position:relative;  /* utilse pour l'affichage du point */
+	
+}
+
+#menu a:hover{
+	background: rgba(255,255,255,0.1);
+	border-bottom: solid 4px rgba(255,255,255,0.8);
+	color : #373737;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	transition : text-shadow,color 1s;
+}
+
+#menu a::before{
+    bottom: 5px;
+	transition:1s;
+	width: 0;
+	height: 0;
+	border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid rgba(0,0,0,0.2);
+}
+
+#menu a:hover::before{
+	border-color: rgba(255, 255, 255, 0.5) transparent transparent;
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	transition:1s
   
 
   
