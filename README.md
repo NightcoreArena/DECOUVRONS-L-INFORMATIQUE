@@ -1,6 +1,6 @@
 # Projet DÉCOUVRONS L'INFORMATIQUE
 
-C'est un projet qui consiste à informer les personnes sur les métiers de l'informatique, ce que l'on utilise comme langage ainsi que les logiciels à utiliser etc...
+C'est un projet qui consiste à m'informer sur les métiers de l'informatique, ce que l'on utilise comme langage ainsi que les logiciels à utiliser etc...
 
 ---------------------------------
 
